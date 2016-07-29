@@ -19,10 +19,10 @@ import sys
 import MySQLdb
 # SQL DATABASE SETTING
 SQL_DB = 'newdatabase'
-SQL_TABLE = 'songs_shazam' 
-SQL_HOST = '127.0.0.1'
-SQL_USER = 'root'
-SQL_PASSWD = 'root'
+SQL_TABLE = 'songs_shazam'
+SQL_HOST = 'www.island-research.com'
+SQL_USER = 'newdatabase'
+SQL_PASSWD = 'Sorsey2000'
 
 #SQL_DB = 'pacciari_island1234'
 #SQL_TABLE = 'songs_chart'

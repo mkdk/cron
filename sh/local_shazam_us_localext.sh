@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd '/home/nnme/pgmg/freelance/paccari/cron/local_shazam_us_localext'
+cd '/var/www/vhosts/island-research.com/cron/local_shazam_us_localext'
 
-scrapy crawl music
+scrapy crawl music -s LOG_FILE=/var/www/vhosts/island-research.com/cron/out_cron

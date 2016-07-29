@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd '/home/nnme/pgmg/freelance/paccari/cron'
+cd '/var/www/vhosts/island-research.com/cron'
 
 wget http://txt.proxyspy.net/proxy.txt
