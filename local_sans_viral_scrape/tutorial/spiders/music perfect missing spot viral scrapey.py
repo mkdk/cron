@@ -213,23 +213,10 @@ class MusicSpider(scrapy.Spider):
          # Spotify viral
         now = datetime.date.today()
         date=now.strftime("%m/%d/%Y")
-        """#!/usr/bin/env python
 
-from pyvirtualdisplay import Display
-from selenium import webdriver
-
-display = Display(visible=0, size=(1024, 768))
-display.start()
-
-browser = webdriver.Firefox()
-browser.get('http://www.ubuntu.com/')
-print browser.page_source
-
-browser.close()
-"""
         #self.driver=webdriver.Chrome("chromedriver.exe")
         #self.driver=webdriver.Chrome()
-        self.display = Display(visible=0, size=(1024, 768))
+        self.display = Display(visible=10, size=(1024, 768))
         self.display.start()
 
         self.driver=webdriver.Firefox()
