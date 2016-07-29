@@ -42,17 +42,16 @@ def second_filter(proxy):
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>'''
     for i in proxy:
-        for i in proxy:
-            print('check the proxy %s' % i)
-            p = subprocess.Popen('curl -x http://%s -L https://myip.ht' % i, shell=True, stdout=PIPE, stderr=PIPE)
-            p.wait()
-            out = p.communicate()
-            print out[0]
-            if test in out[0]:
-                print("good %s" % i)
-                best.append(i)
-            if len(best) == 3:
-                break
+        print('check the proxy %s' % i)
+        p = subprocess.Popen('curl -x http://%s -L https://myip.ht' % i, shell=True, stdout=PIPE, stderr=PIPE)
+        p.wait()
+        out = p.communicate()
+        print out[0]
+        if test in out[0]:
+            print("good %s" % i)
+            best.append(i)
+        if len(best) == 3:
+            break
     return best
 
 
