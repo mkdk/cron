@@ -29,6 +29,9 @@ from scrapy import signals
 from datetime import date
 #import msvcrt
 from pyvirtualdisplay import Display
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+
+binary = FirefoxBinary("/var/www/vhosts/island-research.com/cron/firefox")
 
 class MusicSpider(scrapy.Spider):
    
@@ -219,7 +222,7 @@ class MusicSpider(scrapy.Spider):
         self.display = Display(visible=10, size=(1024, 768))
         self.display.start()
 
-        self.driver=webdriver.Firefox()
+        self.driver=webdriver.Firefox(firefox_binary=binary)
         links=[]
         with open('links.csv') as csvfile:
             reader = csv.reader(csvfile)
