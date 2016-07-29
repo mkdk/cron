@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>stubhub.com Suspicious Activity Detected</title>
+	<link rel="stylesheet" href="/promotions/scratch/common/block.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="content">
+	<div class="container">
+		<div class="logo">
+			<img src="/promotions/scratch/common/logo.png"/>
+		</div>
+
+		<div class="main">
+			<h1>Suspicious activity detected</h1>
+
+			<div class="box">
+				<p>Due to suspicious activity from your computer, we have blocked your access to http://www.stubhub.com. After completing the form, your information will be evaulauted and you may be unblocked.</p>
+
+				<p><span>Note</span>: This website may require JavaScript. If you have JavaScript disabled, please enable it before attempting to return to http://www.stubhub.com.</p>
+
+				<div class="block">
+					​
+
+
+
+<form id="distilUnblockForm" method="post" action="http://verify.distil.it/distil_blocked.php">
+	<div id="dUF_first_name">
+		<label for="dUF_input_first_name">First Name:</label>
+		<input type="text" id="dUF_input_first_name" name="first_name" value="" />
+	</div>
+	<div id="dUF_last_name">
+		<label for="dUF_input_last_name">Last Name:</label>
+		<input type="text" id="dUF_input_last_name" name="last_name" value="" />
+	</div>
+	<div id="dUF_email">
+		<label for="dUF_input_email">E-mail:</label>
+		<input type="text" id="dUF_input_email" name="email" value="" />
+	</div>
+	<div id="dUF_city" style="display: none">
+		<label for="dUF_input_city">City (Leave Blank):</label>
+		<input type="text" id="dUF_input_city" name="city" value="" />
+	</div>
+	<div id="dUF_unblock">
+		<input  id="dUF_input_unblock" name="unblock" type="submit" value="Request Unblock" />
+	</div>
+	<div id="dUF_unblock_text">
+		You reached this page when attempting to access https://www.stubhub.com/ from 104.244.156.101 on 2015-10-01 16:49:50 GMT.<br />
+		Trace: 6E936BBE-685C-11E5-A424-BEB713A02060 via a9cc1fa1-b7cd-450c-82ba-5bf7e2e6a211
+	</div>
+	<div id="dUF_form_fields" style="display: none">
+		<input type="hidden" name="B" value="2672:104.244.156.101:FDA0F2CD-3E0F-3A3E-B54A-D5C00BB89CA9" />       		
+		<input type="hidden" name="P" value="FDA0F2CD-3E0F-3A3E-B54A-D5C00BB89CA9" />       		
+		<input type="hidden" name="I" value="" />       		
+		<input type="hidden" name="U" value="" />       		
+		<input type="hidden" name="V" value="8" />
+		<input type="hidden" name="O" value="" />
+		<input type="hidden" name="D" value="2672" />
+		<input type="hidden" name="A" value="678" />
+		<input type="hidden" name="LOADED" value="2015-10-01 16:49:50" />
+		<input type="hidden" name="H" value='www.stubhub.com' />
+		<input type="hidden" id="distil_block_identity_info" name="PB" value="" />
+	</div>
+</form>
+				</div>
+
+
+				<div class="contact">
+					<p>If you feel you've reached this page in error, or have any questions - please contact StubHub! Customer service at 1-866-stubhub(788-2482).</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

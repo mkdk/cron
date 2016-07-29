@@ -1,0 +1,1 @@
+Before start,  you to change setting for each spiders:(mysql settings)

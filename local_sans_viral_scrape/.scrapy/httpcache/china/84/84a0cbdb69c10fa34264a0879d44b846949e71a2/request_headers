@@ -1,0 +1,6 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Scrapy/0.24.6 (+http://scrapy.org)
+Cookie: cvcp=Yzh; cs=chinavasion.com_u_eca59abaf09a774a497e5fe8a7f18c71.eagle; __cfduid=df78f31fa15fd72491c906c0939a34be41443738554
+Referer: https://www.chinavasion.com/china/wholesale/Android_Media_Players/Android_TV_Box/?page=2

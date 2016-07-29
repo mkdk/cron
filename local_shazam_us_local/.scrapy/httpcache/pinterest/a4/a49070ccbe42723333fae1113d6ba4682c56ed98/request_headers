@@ -1,0 +1,7 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Scrapy/0.24.6 (+http://scrapy.org)
+Referer: https://www.pinterest.com/login/
+Cookie: csrftoken=qnPEvedfEbHnn1zKcom7k5yewF3fKRjY; _pinterest_sess=TWc9PSZIRWJYL0pDcURJeEtMb0k1QnVGbkw5dnBQb1ZJN2RLR0dFU0F1QTNPbHRYeGF1TzN5QVVqV1FaNUEwL2gwS1Njb3V4SmdnUDFybkQya09uQytWYmxmRWVxMWZPZVZoSU1raTFKUmtXT0k5cllNdVY1R3JHektyNU8zUFE4eTVUTVdhUkNhT09YOEJPVFByNENNOHVXd2c9PSZvb2gxREhsR2VtN1ROdW55YWZzenZNSTBLbU09
+Content-Type: application/x-www-form-urlencoded

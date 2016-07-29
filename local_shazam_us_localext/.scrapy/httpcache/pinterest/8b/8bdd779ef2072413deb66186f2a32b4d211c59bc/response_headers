@@ -1,0 +1,19 @@
+X-Varnish: 1509604301
+Pinterest-Breed: CORGI
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' https://*.pinterest.com https://*.pinimg.com  *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com https://*.googleapis.com *.gstatic.com https://*.facebook.com *.facebook.com www.googleadservices.com googleads.g.doubleclick.net platform.twitter.com *.tiles.mapbox.com *.online-metrix.net 'unsafe-inline' 'unsafe-eval'; frame-src *; img-src *; report-uri /_/_/csp_report/
+Content-Encoding: gzip
+Pinterest-Version: 68c5dd7
+Set-Cookie: csrftoken=qnPEvedfEbHnn1zKcom7k5yewF3fKRjY; Domain=.pinterest.com; expires=Mon, 29-Aug-2016 12:02:09 GMT; Max-Age=31449600; Path=/
+Set-Cookie: _pinterest_sess=TWc9PSZIRWJYL0pDcURJeEtMb0k1QnVGbkw5dnBQb1ZJN2RLR0dFU0F1QTNPbHRYeGF1TzN5QVVqV1FaNUEwL2gwS1Njb3V4SmdnUDFybkQya09uQytWYmxmRWVxMWZPZVZoSU1raTFKUmtXT0k5cllNdVY1R3JHektyNU8zUFE4eTVUTVdhUkNhT09YOEJPVFByNENNOHVXd2c9PSZvb2gxREhsR2VtN1ROdW55YWZzenZNSTBLbU09; Domain=.pinterest.com; expires=Thu, 25-Aug-2016 12:02:09 GMT; httponly; Max-Age=31103999; Path=/; secure
+Strict-Transport-Security: max-age=31556926;
+Vary: User-Agent, Cookie, Accept-Encoding
+Server: nginx
+X-Pinterest-Rid: 979101625783
+Pinterest-Generated-By: coreapp-ngapp-prod-c383166b
+X-Xss-Protection: 1; mode=block
+X-Ua-Compatible: IE=edge
+Date: Mon, 31 Aug 2015 12:02:09 GMT
+P3P: CP="This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info."
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
