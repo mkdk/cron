@@ -35,12 +35,23 @@ def get_proxy():
 
 def second_filter(proxy):
     best = []
+    test = '''<!DOCTYPE html>
+    <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+    <head>'''
     for i in proxy:
-        p = subprocess.Popen('curl -x http://%s -L https://myip.ht' % i, shell=True, stdout=PIPE, stderr=PIPE)
-        p.wait()
-        if '<!DOCTYPE html><html><head><title>What\'s My IP Address?</title>' in p.communicate():
-            print("good %s" % i)
-            best.append(i)
+        for i in proxy:
+            print('check the proxy %s' % i)
+            p = subprocess.Popen('curl -x http://%s -L https://myip.ht' % i, shell=True, stdout=PIPE, stderr=PIPE)
+            p.wait()
+            out = p.communicate()
+            if test in out[0]:
+                print("good %s" % i)
+                best.append(i)
+            if len(best) == 3:
+                break
     return best
 
 
