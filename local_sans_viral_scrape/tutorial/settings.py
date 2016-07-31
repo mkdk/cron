@@ -62,19 +62,19 @@ RETRY_TIMES=10
 #COOKIES_ENABLED = True
 # HTTPCACHE_ENABLED=True
 # AJAXCRAWL_ENABLED=True
-#USER_AGENT = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+USER_AGENT = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
 
 
 # CONCURRENT_REQUESTS=1
 # CONCURRENT_REQUESTS_PER_DOMAIN=1
 # CONCURRENT_ITEMS=1
-#DOWNLOAD_DELAY =1   #how many seconds you want your spider to wait to download other request 
+DOWNLOAD_DELAY =0.25   #how many seconds you want your spider to wait to download other request
 
 # ITEM_PIPELINES = {'tutorial.pipelines.TutorialPipeline': 300 }
 
 # DOWNLOADER_MIDDLEWARES = {
 #     'tutorial.randomproxy.RandomProxy': 100,
-#     'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
+#     'scrapy.contrib.downloadermiddleware.httpprsoxy.HttpProxyMiddleware': 110,
 #     'scrapy.contrib.downloadermiddleware.retry.RetryMiddleware': 90,
 
 # }
