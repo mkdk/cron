@@ -60,12 +60,12 @@ get_proxy()
 print("="*100)
 print('wait, try to find good proxy')
 print("="*100)
-main()
-
-with open('proxy.txt', 'w') as w:
-    for proxy, host in output:
-        if proxy == '0':
-            w.write(host+'\n')
+# main()
+#
+# with open('proxy.txt', 'w') as w:
+#     for proxy, host in output:
+#         if proxy == '0':
+#             w.write(host+'\n')
 
 print("="*100)
 print('in proxy.txt now only good proxy')
