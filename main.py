@@ -14,8 +14,8 @@ log = os.path.join(HOME, 'out_cron')
 
 def cronic(proxy):
     os.system('echo " " > %s' % log)
-    # os.system('cd {0} && scrapy crawl music -s LOG_FILE={1}'.format(os.path.join(HOME, 'local_viral_scrape'), log))
-    # os.system('cd {0} && scrapy crawl music -s LOG_FILE={1}'.format(os.path.join(HOME, 'local_sans_viral_scrape'), log))
+    os.system('cd {0} && scrapy crawl music -s LOG_FILE={1}'.format(os.path.join(HOME, 'local_viral_scrape'), log))
+    os.system('export DISPLAY=:10 && cd {0} && scrapy crawl music -s LOG_FILE={1}'.format(os.path.join(HOME, 'local_sans_viral_scrape'), log))
     os.system('python %s' % os.path.join(HOME, 'proxychecker.py'))
     change_proxy(os.path.join(HOME, 'local_shazam_us_local'), proxy)
     os.system('cd {0} && scrapy crawl music -s LOG_FILE={1}'.format(os.path.join(HOME, 'local_shazam_us_local'), log))
